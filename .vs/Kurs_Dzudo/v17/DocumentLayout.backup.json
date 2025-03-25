@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\hardik\\connector\\date\\organizatordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\hardik\\connector\\date\\organizatordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\hardik\\connector\\date\\ukhasnikidao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\hardik\\connector\\date\\ukhasnikidao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\hardik\\connector\\connecter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\hardik\\connector\\connecter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\hardik\\dop\\dopfunctii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\hardik\\dop\\dopfunctii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\views\\oknaroley\\adminwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\views\\oknaroley\\adminwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\views\\oknafunctiy\\addeditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\views\\oknafunctiy\\addeditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\views\\oknaroley\\userwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\views\\oknaroley\\userwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\views\\oknafunctiy\\addeditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\views\\oknafunctiy\\addeditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\views\\oknaroley\\gestwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\views\\oknaroley\\gestwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\views\\oknaroley\\userwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\views\\oknaroley\\userwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\views\\oknafunctiy\\controlwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\views\\oknafunctiy\\controlwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|c:\\users\\pc\\source\\repos\\kurs_dzudo\\kurs_dzudo\\views\\oknaroley\\adminwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64924E6F-B8A3-463E-8500-F1CBC662FBF8}|Kurs_Dzudo\\Kurs_Dzudo.csproj|solutionrelative:kurs_dzudo\\views\\oknaroley\\adminwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UkhasnikiDao.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Hardik\\Connector\\Date\\UkhasnikiDao.cs",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Hardik\\Connector\\Date\\UkhasnikiDao.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Hardik\\Connector\\Date\\UkhasnikiDao.cs",
+              "RelativeToolTip": "Kurs_Dzudo\\Hardik\\Connector\\Date\\UkhasnikiDao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:31:56.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrganizatorDao.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Hardik\\Connector\\Date\\OrganizatorDao.cs",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Hardik\\Connector\\Date\\OrganizatorDao.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Hardik\\Connector\\Date\\OrganizatorDao.cs",
+              "RelativeToolTip": "Kurs_Dzudo\\Hardik\\Connector\\Date\\OrganizatorDao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T06:34:54.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DopFunctii.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Hardik\\Dop\\DopFunctii.cs",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Hardik\\Dop\\DopFunctii.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Hardik\\Dop\\DopFunctii.cs",
+              "RelativeToolTip": "Kurs_Dzudo\\Hardik\\Dop\\DopFunctii.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T06:10:09.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddEditWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaFunctiy\\AddEditWindow.axaml",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Views\\OknaFunctiy\\AddEditWindow.axaml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaFunctiy\\AddEditWindow.axaml",
+              "RelativeToolTip": "Kurs_Dzudo\\Views\\OknaFunctiy\\AddEditWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T08:52:16.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ControlWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaFunctiy\\ControlWindow.axaml",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Views\\OknaFunctiy\\ControlWindow.axaml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaFunctiy\\ControlWindow.axaml",
+              "RelativeToolTip": "Kurs_Dzudo\\Views\\OknaFunctiy\\ControlWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T08:50:41.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GestWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaRoley\\GestWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Views\\OknaRoley\\GestWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaRoley\\GestWindow.axaml.cs",
+              "RelativeToolTip": "Kurs_Dzudo\\Views\\OknaRoley\\GestWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T08:43:18.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaRoley\\UserWindow.axaml",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Views\\OknaRoley\\UserWindow.axaml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaRoley\\UserWindow.axaml",
+              "RelativeToolTip": "Kurs_Dzudo\\Views\\OknaRoley\\UserWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T08:42:39.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaRoley\\UserWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Views\\OknaRoley\\UserWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaRoley\\UserWindow.axaml.cs",
+              "RelativeToolTip": "Kurs_Dzudo\\Views\\OknaRoley\\UserWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T08:42:39.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaRoley\\AdminWindow.axaml",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Views\\OknaRoley\\AdminWindow.axaml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaRoley\\AdminWindow.axaml",
+              "RelativeToolTip": "Kurs_Dzudo\\Views\\OknaRoley\\AdminWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T08:42:09.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaRoley\\AdminWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Views\\OknaRoley\\AdminWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaRoley\\AdminWindow.axaml.cs",
+              "RelativeToolTip": "Kurs_Dzudo\\Views\\OknaRoley\\AdminWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T08:42:05.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddEditWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaFunctiy\\AddEditWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Views\\OknaFunctiy\\AddEditWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\OknaFunctiy\\AddEditWindow.axaml.cs",
+              "RelativeToolTip": "Kurs_Dzudo\\Views\\OknaFunctiy\\AddEditWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:32:45.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Connecter.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Hardik\\Connector\\Connecter.cs",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Hardik\\Connector\\Connecter.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Hardik\\Connector\\Connecter.cs",
+              "RelativeToolTip": "Kurs_Dzudo\\Hardik\\Connector\\Connecter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAnwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:58:30.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "Kurs_Dzudo\\Views\\MainWindow.axaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:37:08.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Kurs_Dzudo\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Kurs_Dzudo\\Kurs_Dzudo\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "Kurs_Dzudo\\Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T06:33:54.247Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
