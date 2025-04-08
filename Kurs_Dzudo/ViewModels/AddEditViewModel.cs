@@ -1,32 +1,14 @@
-﻿using System;
-using System.Reactive;
+﻿using Avalonia.Controls;
 using Kurs_Dzudo.Hardik.Connector.Date;
 using ReactiveUI;
+using System;
+using System.Reactive;
 
 namespace Kurs_Dzudo.ViewModels
 {
     public class AddEditViewModel : ReactiveObject
     {
         private UkhasnikiDao _currentParticipant;
-        private bool _isEditMode;
-        private string _windowTitle;
-
-        public AddEditViewModel()
-        {
-            CurrentParticipant = new UkhasnikiDao();
-            IsEditMode = false;
-            WindowTitle = "Добавить участника";
-
-            SaveCommand = ReactiveCommand.Create(Save);
-            CancelCommand = ReactiveCommand.Create(Cancel);
-        }
-
-        public AddEditViewModel(UkhasnikiDao participant) : this()
-        {
-            CurrentParticipant = participant;
-            IsEditMode = true;
-            WindowTitle = "Редактировать участника";
-        }
 
         public UkhasnikiDao CurrentParticipant
         {
@@ -34,46 +16,44 @@ namespace Kurs_Dzudo.ViewModels
             set => this.RaiseAndSetIfChanged(ref _currentParticipant, value);
         }
 
-        public bool IsEditMode
+        public DateTimeOffset? SelectedDate
         {
-            get => _isEditMode;
-            set => this.RaiseAndSetIfChanged(ref _isEditMode, value);
+            get => CurrentParticipant?.DateSorevnovaniy == default
+                ? null
+                : new DateTimeOffset(CurrentParticipant.DateSorevnovaniy.ToDateTime(TimeOnly.MinValue));
+            set
+            {
+                if (CurrentParticipant != null)
+                {
+                    CurrentParticipant.DateSorevnovaniy = value.HasValue
+                        ? DateOnly.FromDateTime(value.Value.DateTime)
+                        : default;
+                    this.RaisePropertyChanged();
+                }
+            }
         }
 
-        public string WindowTitle
+        public string WindowTitle => CurrentParticipant?.Name == null ? "Добавить участника" : "Редактировать участника";
+
+        public ReactiveCommand<Unit, Unit> SaveCommand { get; set; }
+        public ReactiveCommand<Unit, Unit> CancelCommand { get; set; }
+
+        public AddEditViewModel()
         {
-            get => _windowTitle;
-            set => this.RaiseAndSetIfChanged(ref _windowTitle, value);
+            CurrentParticipant = new UkhasnikiDao();
+            SetupCommands();
         }
 
-        public DateTimeOffset CompetitionDate
+        public AddEditViewModel(UkhasnikiDao participant)
         {
-            get => new DateTimeOffset(CurrentParticipant.DateSorevnovaniy.Year,
-                                    CurrentParticipant.DateSorevnovaniy.Month,
-                                    CurrentParticipant.DateSorevnovaniy.Day,
-                                    0, 0, 0, TimeSpan.Zero);
-            set => CurrentParticipant.DateSorevnovaniy = new DateOnly(value.Year, value.Month, value.Day);
+            CurrentParticipant = participant;
+            SetupCommands();
         }
 
-        public ReactiveCommand<Unit, Unit> SaveCommand { get; }
-        public ReactiveCommand<Unit, Unit> CancelCommand { get; }
-
-        private void Save()
+        private void SetupCommands()
         {
-            // Validation can be added here
-            Close(true);
-        }
-
-        private void Cancel()
-        {
-            Close(false);
-        }
-
-        public event Action<bool> CloseWindow;
-
-        private void Close(bool result)
-        {
-            CloseWindow?.Invoke(result);
+            SaveCommand = ReactiveCommand.Create(() => { });
+            CancelCommand = ReactiveCommand.Create(() => { });
         }
     }
 }

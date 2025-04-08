@@ -3,12 +3,11 @@ using System.Linq;
 using System.Reactive;
 using System.Reactive.Linq;
 using System.Threading.Tasks;
-using Avalonia;
 using Avalonia.Controls;
-using Kurs_Dzudo.Hardik.Connector;
 using Kurs_Dzudo.Hardik.Connector.Date;
 using Kurs_Dzudo.Views.OknaFunctiy;
 using ReactiveUI;
+using ukhasnikis_BD_Sec.Hardik.Connect;
 
 namespace Kurs_Dzudo.ViewModels
 {
@@ -32,7 +31,6 @@ namespace Kurs_Dzudo.ViewModels
             EditParticipantCommand = ReactiveCommand.CreateFromTask(EditParticipantAsync,
                 this.WhenAnyValue(x => x.SelectedParticipant).Select(p => p != null));
         }
-
 
         public List<UkhasnikiDao> DisplayedParticipants
         {
@@ -58,8 +56,8 @@ namespace Kurs_Dzudo.ViewModels
 
         private void LoadParticipants()
         {
-            using var db = new Connector();
-            _allParticipants = db.ukhasniki.ToList();
+            using var db = new DatabaseConnection();
+            _allParticipants = db.GetAllUkhasnikis();
             DisplayedParticipants = new List<UkhasnikiDao>(_allParticipants);
         }
 
@@ -73,48 +71,39 @@ namespace Kurs_Dzudo.ViewModels
             {
                 var searchLower = SearchText.ToLower();
                 DisplayedParticipants = _allParticipants
-                    .Where(p => p.Name.ToLower().Contains(searchLower) ||
-                                p.SecName.ToLower().Contains(searchLower) ||
-                                p.Club.ToLower().Contains(searchLower) ||
-                                p.Adres.ToLower().Contains(searchLower))
+                    .Where(p => (p.Name?.ToLower().Contains(searchLower) ?? false ||
+                               (p.SecName?.ToLower().Contains(searchLower) ?? false ||
+                               (p.Club?.ToLower().Contains(searchLower) ?? false ||
+                               (p.Adres?.ToLower().Contains(searchLower) ?? false)))))
                     .ToList();
             }
         }
 
         public void AddParticipant(UkhasnikiDao participant)
         {
-            using var db = new Connector();
-            db.ukhasniki.Add(participant);
-            db.SaveChanges();
+            using var db = new DatabaseConnection();
+            db.Updateukhasniki(participant);
             LoadParticipants();
         }
 
         public void UpdateParticipant(UkhasnikiDao participant)
         {
-            using var db = new Connector();
-            db.ukhasniki.Update(participant);
-            db.SaveChanges();
+            using var db = new DatabaseConnection();
+            db.Updateukhasniki(participant);
             LoadParticipants();
         }
 
-        public void DeleteParticipant(int id)
+        public void DeleteParticipant(string name)
         {
-            using var db = new Connector();
-            var participant = db.ukhasniki.FirstOrDefault(p => p.Id == id);
-            if (participant != null)
-            {
-                db.ukhasniki.Remove(participant);
-                db.SaveChanges();
-                LoadParticipants();
-            }
+            LoadParticipants();
         }
 
         public List<UkhasnikiDao> ImportParticipants(List<UkhasnikiDao> participants)
         {
-            using var db = new Connector();
-            db.ukhasniki.AddRange(participants);
-            db.SaveChanges();
-            LoadParticipants();
+            foreach (var participant in participants)
+            {
+                AddParticipant(participant);
+            }
             return participants;
         }
 
@@ -135,7 +124,6 @@ namespace Kurs_Dzudo.ViewModels
 
             var dialog = new AddEditWindow(new UkhasnikiDao
             {
-                Id = SelectedParticipant.Id,
                 Name = SelectedParticipant.Name,
                 SecName = SelectedParticipant.SecName,
                 DateSorevnovaniy = SelectedParticipant.DateSorevnovaniy,

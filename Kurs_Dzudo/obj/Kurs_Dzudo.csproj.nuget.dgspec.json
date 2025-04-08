@@ -52,23 +52,23 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[11.2.5, )"
+              "version": "[11.2.6, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[11.2.5, )"
+              "version": "[11.2.6, )"
             },
             "Avalonia.Diagnostics": {
               "target": "Package",
-              "version": "[11.2.5, )"
+              "version": "[11.2.6, )"
             },
             "Avalonia.Fonts.Inter": {
               "target": "Package",
-              "version": "[11.2.5, )"
+              "version": "[11.2.6, )"
             },
             "Avalonia.Themes.Fluent": {
               "target": "Package",
-              "version": "[11.2.5, )"
+              "version": "[11.2.6, )"
             },
             "Azure.ResourceManager.PostgreSql": {
               "target": "Package",
@@ -115,7 +115,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

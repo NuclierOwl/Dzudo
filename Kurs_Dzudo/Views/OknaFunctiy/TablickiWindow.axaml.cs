@@ -2,9 +2,9 @@ using Avalonia.Controls;
 
 namespace Kurs_Dzudo;
 
-public partial class ControlWindow : Window
+public partial class TablickiWindow : Window
 {
-    public ControlWindow()
+    public TablickiWindow()
     {
         InitializeComponent();
     }

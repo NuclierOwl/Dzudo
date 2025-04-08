@@ -2,41 +2,28 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Kurs_Dzudo.Hardik.Connector.Date;
+using Kurs_Dzudo.ViewModels;
+using System.Threading.Tasks;
 
-namespace Kurs_Dzudo.Views.OknaFunctiy;
-
-public partial class AddEditWindow : Window
+namespace Kurs_Dzudo.Views.OknaFunctiy
 {
-    public UkhasnikiDao Participant { get; set; }
-
-    public AddEditWindow()
+    public partial class AddEditWindow : Window
     {
-        InitializeComponent();
-        Participant = new UkhasnikiDao();
-        DataContext = Participant;
+        public AddEditWindow()
+        {
+            InitializeComponent();
+            DataContext = new AddEditViewModel();
+        }
+
+        public AddEditWindow(UkhasnikiDao participant)
+        {
+            InitializeComponent();
+            DataContext = new AddEditViewModel(participant);
+        }
+
+        private void InitializeComponent()
+        {
+            AvaloniaXamlLoader.Load(this);
+        }
     }
-
-    public AddEditWindow(UkhasnikiDao participant)
-    {
-        InitializeComponent();
-        Participant = participant;
-        DataContext = Participant;
-    }
-
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
-
-    private void Save_Click(object sender, RoutedEventArgs e)
-    {
-        Close(true);
-    }
-
-    private void Cancel_Click(object sender, RoutedEventArgs e)
-    {
-        Close(false);
-    }
-
-
 }

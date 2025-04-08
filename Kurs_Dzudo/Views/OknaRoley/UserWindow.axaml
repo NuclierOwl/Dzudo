@@ -4,68 +4,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Kurs_Dzudo.UserWindow"
-        Title="UserWindow"
-		xmlns:vm="using:Kurs_Dzudo.ViewModels"
-	    x:DataType="vm:AddEditViewModel">
+        Title="UserWindow">
 
-	<Design.DataContext>
-		<vm:AddEditViewModel/>
-	</Design.DataContext>
-	
-	<Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,*"
-			  ColumnDefinitions="Auto,*"
-			  Margin="10">
-
-		<TextBlock Text="ID:"
-                   Grid.Row="0" Grid.Column="0"
-                   
-                   IsVisible="{Binding IsEditMode}"/>
-		<TextBox Text="{Binding CurrentParticipant.Id, Mode=TwoWay}"
-                 Grid.Row="0" Grid.Column="1"
-                 
-                 IsReadOnly="True"
-                 IsVisible="{Binding IsEditMode}"/>
-
-		<TextBlock Text="Имя:"
-                   Grid.Row="1" Grid.Column="0"/>
-		<TextBox Text="{Binding CurrentParticipant.Name, Mode=TwoWay}"
-                 Grid.Row="1" Grid.Column="1"/>
-
-		<TextBlock Text="Фамилия:"
-                   Grid.Row="2" Grid.Column="0"/>
-		<TextBox Text="{Binding CurrentParticipant.SecName, Mode=TwoWay}"
-                 Grid.Row="2" Grid.Column="1"/>
-
-		<TextBlock Text="Дата соревнований:"
-                   Grid.Row="3" Grid.Column="0"/>
-		<DatePicker SelectedDate="{Binding CompetitionDate, Mode=TwoWay}"
-                    Grid.Row="3" Grid.Column="1"/>
-
-		<TextBlock Text="Клуб:"
-                   Grid.Row="4" Grid.Column="0"/>
-		<TextBox Text="{Binding CurrentParticipant.Club, Mode=TwoWay}"
-                 Grid.Row="4" Grid.Column="1"/>
-
-		<TextBlock Text="Адрес:"
-                   Grid.Row="5" Grid.Column="0"/>
-		<TextBox Text="{Binding CurrentParticipant.Adres, Mode=TwoWay}"
-                 Grid.Row="5" Grid.Column="1"/>
-
-		<TextBlock Text="Вес:"
-                   Grid.Row="6" Grid.Column="0"/>
-		<TextBox Text="{Binding CurrentParticipant.Ves, Mode=TwoWay}"
-                 Grid.Row="6" Grid.Column="1"/>
-
-		<StackPanel Orientation="Horizontal"
-                    HorizontalAlignment="Right"
-                    Grid.Row="7" Grid.ColumnSpan="2">
-			<Button Content="Сохранить"
-                    Command="{Binding SaveCommand}"
-                    Margin="0,0,10,0"
-                    Width="100"/>
-			<Button Content="Отмена"
-                    Command="{Binding CancelCommand}"
-                    Width="100"/>
+	<Grid HorizontalAlignment="Center" VerticalAlignment="Top">
+		<StackPanel>
+			<Button Content="Создать/редактировать запись" Click="Izmenenia_Click"/>
 		</StackPanel>
 	</Grid>
+
 </Window>

@@ -13,7 +13,8 @@
 		<StackPanel VerticalAlignment="Center">
 			<TextBox x:Name="UserNameText" Watermark="Login"/>
 			<TextBox x:Name="PassTextBox" Watermark="Password" />
-			<Button x:Name="ProverkaPorola" Content="Войти"/>
+			<Button x:Name="ProverkaPorola" Content="Войти" Click="ProverkaPorola_Click"/>
+			<Button Content="Участник" Click="Izmenenia_Click"/>
 		</StackPanel>
 	</Grid>
 </Window>
