@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kurs_Dzudo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83d6f63f5540acf17e644143223a8a69a7628f61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5618ccbe84c71348787c88f6205e077135333f9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kurs_Dzudo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kurs_Dzudo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

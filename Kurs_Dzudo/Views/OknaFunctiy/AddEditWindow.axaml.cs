@@ -1,9 +1,7 @@
 using Avalonia.Controls;
-using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Kurs_Dzudo.Hardik.Connector.Date;
 using Kurs_Dzudo.ViewModels;
-using System.Threading.Tasks;
 
 namespace Kurs_Dzudo.Views.OknaFunctiy
 {

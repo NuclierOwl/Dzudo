@@ -1,5 +1,4 @@
-﻿using Avalonia.Controls;
-using Kurs_Dzudo.Hardik.Connector.Date;
+﻿using Kurs_Dzudo.Hardik.Connector.Date;
 using ReactiveUI;
 using System;
 using System.Reactive;
@@ -18,16 +17,44 @@ namespace Kurs_Dzudo.ViewModels
 
         public DateTimeOffset? SelectedDate
         {
-            get => CurrentParticipant?.DateSorevnovaniy == default
-                ? null
-                : new DateTimeOffset(CurrentParticipant.DateSorevnovaniy.ToDateTime(TimeOnly.MinValue));
+            get
+            {
+                if (CurrentParticipant?.DateSorevnovaniy == default ||
+                    CurrentParticipant.DateSorevnovaniy.Year < 1 ||
+                    CurrentParticipant.DateSorevnovaniy.Year > 9999)
+                {
+                    return null;
+                }
+
+                try
+                {
+                    var dateTime = CurrentParticipant.DateSorevnovaniy.ToDateTime(TimeOnly.MinValue);
+                    return new DateTimeOffset(dateTime);
+                }
+                catch
+                {
+                    return null;
+                }
+            }
             set
             {
-                if (CurrentParticipant != null)
+                if (CurrentParticipant != null && value.HasValue)
                 {
-                    CurrentParticipant.DateSorevnovaniy = value.HasValue
-                        ? DateOnly.FromDateTime(value.Value.DateTime)
-                        : default;
+                    try
+                    {
+                        if (value.Value.Year >= 1 && value.Value.Year <= 9999)
+                        {
+                            CurrentParticipant.DateSorevnovaniy = DateOnly.FromDateTime(value.Value.DateTime);
+                        }
+                        else
+                        {
+                            CurrentParticipant.DateSorevnovaniy = default;
+                        }
+                    }
+                    catch
+                    {
+                        CurrentParticipant.DateSorevnovaniy = default;
+                    }
                     this.RaisePropertyChanged();
                 }
             }
