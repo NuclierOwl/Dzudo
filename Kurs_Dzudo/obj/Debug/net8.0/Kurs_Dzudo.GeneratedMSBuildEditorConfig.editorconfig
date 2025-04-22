@@ -32,7 +32,13 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/PC/source/repos/Kurs_Dzudo/Kurs_Dzudo/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/PC/source/repos/Kurs_Dzudo/Kurs_Dzudo/Views/MatchWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/PC/source/repos/Kurs_Dzudo/Kurs_Dzudo/Views/OknaFunctiy/AddEditWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/PC/source/repos/Kurs_Dzudo/Kurs_Dzudo/Views/OknaFunctiy/ControlWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/PC/source/repos/Kurs_Dzudo/Kurs_Dzudo/Views/OknaFunctiy/TablickiWindow.axaml]

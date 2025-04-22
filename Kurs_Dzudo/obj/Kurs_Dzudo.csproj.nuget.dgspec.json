@@ -52,23 +52,23 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[11.2.6, )"
+              "version": "[11.2.7, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[11.2.6, )"
+              "version": "[11.2.7, )"
             },
             "Avalonia.Diagnostics": {
               "target": "Package",
-              "version": "[11.2.6, )"
+              "version": "[11.2.7, )"
             },
             "Avalonia.Fonts.Inter": {
               "target": "Package",
-              "version": "[11.2.6, )"
+              "version": "[11.2.7, )"
             },
             "Avalonia.Themes.Fluent": {
               "target": "Package",
-              "version": "[11.2.6, )"
+              "version": "[11.2.7, )"
             },
             "Azure.ResourceManager.PostgreSql": {
               "target": "Package",
@@ -80,11 +80,11 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Npgsql": {
               "target": "Package",

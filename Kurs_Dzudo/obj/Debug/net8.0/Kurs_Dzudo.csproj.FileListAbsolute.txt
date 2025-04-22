@@ -128,3 +128,6 @@ C:\Users\PC\source\repos\Kurs_Dzudo\Kurs_Dzudo\bin\Debug\net8.0\DynamicData.dll
 C:\Users\PC\source\repos\Kurs_Dzudo\Kurs_Dzudo\bin\Debug\net8.0\ReactiveUI.dll
 C:\Users\PC\source\repos\Kurs_Dzudo\Kurs_Dzudo\bin\Debug\net8.0\Splat.dll
 C:\Users\PC\source\repos\Kurs_Dzudo\Kurs_Dzudo\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\PC\source\repos\Kurs_Dzudo\Kurs_Dzudo\obj\Debug\net8.0\Kurs_Dzudo.dll
+C:\Users\PC\source\repos\Kurs_Dzudo\Kurs_Dzudo\obj\Debug\net8.0\refint\Kurs_Dzudo.dll
+C:\Users\PC\source\repos\Kurs_Dzudo\Kurs_Dzudo\obj\Debug\net8.0\Kurs_Dzudo.pdb

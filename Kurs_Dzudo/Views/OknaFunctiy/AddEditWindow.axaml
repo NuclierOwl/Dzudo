@@ -18,7 +18,6 @@
 	<Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,*"
           ColumnDefinitions="Auto,*"
           Margin="10">
-
 		<TextBlock Text="Имя:"
                    Grid.Row="0" Grid.Column="0"
                    VerticalAlignment="Center"/>
